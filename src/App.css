@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&family=Roboto+Serif:wght@200;400;600&display=swap');
+
+
+body {
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto Serif', sans-serif;
+  font-weight:400;
+  /* background-color: #282c34; */
+}
+
+/* .navbar navbar-expand-lg navbar-light {
+  background-color: #282c34;
+} */
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:focus,
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+  color: #1b4965;
+}
+
+.card {
+  margin: auto;
+}
+
+.navbar-light {
+  position: relative;
+  /* margin-left: 5%; */
+}
+
+.danger{
+  color: red;
+}
